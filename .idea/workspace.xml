@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="" />
+    <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC147_Insertion_Sort_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC148_Sort_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC215_Kth_Largest_Element_in_an_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC283_Move_Zeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC451_Sort_Characters_By_Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC692_Top_K_Frequent_Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC75_Sort_Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC374_Guess_Number_Higher_or_Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC374_Guess_Number_Higher_or_Lower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC702_Search_in_a_Sorted_Array_of_Unknown_Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC702_Search_in_a_Sorted_Array_of_Unknown_Size.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,8 +41,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QAJJLHhLRsnwXLVV57y2XcL1ir" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -57,11 +90,25 @@
       <workItem from="1567207399566" duration="600000" />
       <workItem from="1568331531520" duration="5624000" />
       <workItem from="1568935055264" duration="2828000" />
-      <workItem from="1568956620970" duration="5955000" />
+      <workItem from="1568956620970" duration="7819000" />
+      <workItem from="1569111234126" duration="6997000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

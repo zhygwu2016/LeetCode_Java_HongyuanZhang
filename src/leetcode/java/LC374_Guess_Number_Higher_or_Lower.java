@@ -1,5 +1,9 @@
 package leetcode.java;
 
+public class LC374_Guess_Number_Higher_or_Lower {
+
+}
+
 // 374. Guess Number Higher or Lower
 // https://leetcode.com/problems/guess-number-higher-or-lower/
 

@@ -1,5 +1,9 @@
 package leetcode.java;
 
+public class LC702_Search_in_a_Sorted_Array_of_Unknown_Size {
+
+}
+
 // 702. Search in a Sorted Array of Unknown Size
 // https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
 
