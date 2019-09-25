@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC147_Insertion_Sort_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC148_Sort_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC215_Kth_Largest_Element_in_an_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC283_Move_Zeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC451_Sort_Characters_By_Frequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC692_Top_K_Frequent_Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC75_Sort_Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC231_Power_of_Two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC326_Power_of_Three.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC342_Power_of_Four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC50_Pow_x_n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC70_Climbing_Stairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC374_Guess_Number_Higher_or_Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC374_Guess_Number_Higher_or_Lower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC702_Search_in_a_Sorted_Array_of_Unknown_Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC702_Search_in_a_Sorted_Array_of_Unknown_Size.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +86,8 @@
       <workItem from="1568331531520" duration="5624000" />
       <workItem from="1568935055264" duration="2828000" />
       <workItem from="1568956620970" duration="7819000" />
-      <workItem from="1569111234126" duration="6997000" />
+      <workItem from="1569111234126" duration="7144000" />
+      <workItem from="1569360002648" duration="4934000" />
     </task>
     <servers />
   </component>
