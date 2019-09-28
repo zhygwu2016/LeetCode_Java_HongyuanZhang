@@ -11,6 +11,10 @@ package leetcode.java;
  *     ListNode(int x) { val = x; }
  * }
  */
+
+public class LC148_Sort_List {
+
+}
 /*
 public class LC148_Sort_List {
     public ListNode sortList(ListNode head){

@@ -11,6 +11,10 @@ package leetcode.java;
  * }
  */
 
+public class LC147_Insertion_Sort_List {
+
+}
+
 /*
 public class LC147_Insertion_Sort_List {
     public ListNode insertionSortList(ListNode head) {
