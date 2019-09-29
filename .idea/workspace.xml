@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC141_Linked_List_Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC142_Linked_List_Cycle_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC92_Reverse_Linked_List_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC143_Reorder_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC160_Intersection_of_Two_Linked_Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC203_Remove_Linked_List_Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC21_Merge_Two_Sorted_Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC237_Delete_Node_in_a_Linked_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC23_Merge_k_Sorted_Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC83_Remove_Duplicates_from_Sorted_List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC147_Insertion_Sort_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC147_Insertion_Sort_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC148_Sort_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC148_Sort_List.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,8 @@
       <workItem from="1569360002648" duration="4934000" />
       <workItem from="1569538234723" duration="523000" />
       <workItem from="1569538853690" duration="3280000" />
-      <workItem from="1569622826182" duration="3388000" />
+      <workItem from="1569622826182" duration="3470000" />
+      <workItem from="1569725914208" duration="5083000" />
     </task>
     <servers />
   </component>
