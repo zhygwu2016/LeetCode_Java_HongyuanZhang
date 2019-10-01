@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC155_Min_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC20_Valid_Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC224_Basic_Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC225_Implement_Stack_using_Queues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC232_Implement_Queue_using_Stacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC328_Odd_Even_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC369_Plus_One_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC86_Partition_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC227_Basic_Calculator_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC772_Basic_Calculator_III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +92,7 @@
       <workItem from="1569538853690" duration="3280000" />
       <workItem from="1569622826182" duration="3470000" />
       <workItem from="1569725914208" duration="5138000" />
-      <workItem from="1569798155840" duration="8878000" />
+      <workItem from="1569798155840" duration="14645000" />
     </task>
     <servers />
   </component>
