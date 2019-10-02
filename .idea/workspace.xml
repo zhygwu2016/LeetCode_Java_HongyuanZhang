@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC227_Basic_Calculator_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC772_Basic_Calculator_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC101_Symmetric_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC104_Maximum_Depth_of_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC110_Balanced_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC111_Minimum_Depth_of_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC144_Binary_Tree_Preorder_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC145_Binary_Tree_Postorder_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC150_Evaluate_Reverse_Polish_Notation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +97,8 @@
       <workItem from="1569538853690" duration="3280000" />
       <workItem from="1569622826182" duration="3470000" />
       <workItem from="1569725914208" duration="5138000" />
-      <workItem from="1569798155840" duration="14645000" />
+      <workItem from="1569798155840" duration="14840000" />
+      <workItem from="1569953362704" duration="8656000" />
     </task>
     <servers />
   </component>
