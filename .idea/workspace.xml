@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC101_Symmetric_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC104_Maximum_Depth_of_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC110_Balanced_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC111_Minimum_Depth_of_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC144_Binary_Tree_Preorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC145_Binary_Tree_Postorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC150_Evaluate_Reverse_Polish_Notation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC100_Same_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC173_Binary_Search_Tree_Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC226_Invert_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC270_Closest_Binary_Search_Tree_Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC589_N_ary_Tree_Preorder_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC101_Symmetric_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC101_Symmetric_Tree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,9 @@
       <workItem from="1569622826182" duration="3470000" />
       <workItem from="1569725914208" duration="5138000" />
       <workItem from="1569798155840" duration="14840000" />
-      <workItem from="1569953362704" duration="8656000" />
+      <workItem from="1569953362704" duration="8749000" />
+      <workItem from="1570053753158" duration="1745000" />
+      <workItem from="1570143143881" duration="3940000" />
     </task>
     <servers />
   </component>
