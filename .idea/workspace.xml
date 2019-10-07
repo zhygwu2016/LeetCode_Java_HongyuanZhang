@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC222_Count_Complete_Tree_Nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC285_Inorder_Successor_in_BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC347_Top_K_Frequent_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC429_N_ary_Tree_Level_Order_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC559_Maximum_Depth_of_N_ary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC590_N_ary_Tree_Postorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC662_Maximum_Width_of_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC783_Minimum_Distance_Between_BST_Nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC102_Binary_Tree_Level_Order_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC103_Binary_Tree_Zigzag_Level_Order_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC107_Binary_Tree_Level_Order_Traversal_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC314_Binary_Tree_Vertical_Order_Traversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC173_Binary_Search_Tree_Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC173_Binary_Search_Tree_Iterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC692_Top_K_Frequent_Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC692_Top_K_Frequent_Words.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -104,7 +100,9 @@
       <workItem from="1569953362704" duration="8749000" />
       <workItem from="1570053753158" duration="1745000" />
       <workItem from="1570143143881" duration="4040000" />
-      <workItem from="1570211474725" duration="7779000" />
+      <workItem from="1570211474725" duration="8033000" />
+      <workItem from="1570339861833" duration="54000" />
+      <workItem from="1570415888467" duration="3772000" />
     </task>
     <servers />
   </component>
