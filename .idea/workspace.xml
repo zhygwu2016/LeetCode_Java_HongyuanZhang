@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC102_Binary_Tree_Level_Order_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC103_Binary_Tree_Zigzag_Level_Order_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC107_Binary_Tree_Level_Order_Traversal_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC314_Binary_Tree_Vertical_Order_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC22_Generate_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC378_Kth_Smallest_Element_in_a_Sorted_Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC78_Subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC692_Top_K_Frequent_Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC692_Top_K_Frequent_Words.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1570143143881" duration="4040000" />
       <workItem from="1570211474725" duration="8033000" />
       <workItem from="1570339861833" duration="54000" />
-      <workItem from="1570415888467" duration="3772000" />
+      <workItem from="1570415888467" duration="6114000" />
     </task>
     <servers />
   </component>
