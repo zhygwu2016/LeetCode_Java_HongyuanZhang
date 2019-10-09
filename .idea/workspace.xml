@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC22_Generate_Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC378_Kth_Smallest_Element_in_a_Sorted_Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC78_Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC216_Combination_Sum_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC337_House_Robber_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC39_Combination_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC40_Combination_Sum_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC438_Find_All_Anagrams_in_a_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC46_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC77_Combinations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,6 +105,8 @@
       <workItem from="1570211474725" duration="8033000" />
       <workItem from="1570339861833" duration="54000" />
       <workItem from="1570415888467" duration="6114000" />
+      <workItem from="1570570271017" duration="5794000" />
+      <workItem from="1570660498471" duration="1724000" />
     </task>
     <servers />
   </component>
