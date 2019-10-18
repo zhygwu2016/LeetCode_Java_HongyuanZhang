@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC12_Integer_to_Roman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC136_Single_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC137_Single_Number_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC13_Roman_to_Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC190_Reverse_Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC191_Number_of_1_Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC217_Contains_Duplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC219_Contains_Duplicate_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC220_Contains_Duplicate_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC260_Single_Number_III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC231_Power_of_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC231_Power_of_Two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC137_Single_Number_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC137_Single_Number_II.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +104,7 @@
       <workItem from="1570660498471" duration="3377000" />
       <workItem from="1570738316896" duration="3776000" />
       <workItem from="1571176269856" duration="7084000" />
+      <workItem from="1571356809560" duration="4075000" />
     </task>
     <servers />
   </component>
