@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC151_Reverse_Words_in_a_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC344_Reverse_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC10_Regular_Expression_Matching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC118_Pascals_Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC119_Pascals_Triangle_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC186_Reverse_Words_in_a_String_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC242_Valid_Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC26_Remove_Duplicates_from_Sorted_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC28_Implement_strStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC44_Wildcard_Matching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC5_Longest_Palindromic_Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC80_Remove_Duplicates_from_Sorted_Array_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC82_Remove_Duplicates_from_Sorted_List_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC151_Reverse_Words_in_a_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC151_Reverse_Words_in_a_String.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +116,8 @@
       <workItem from="1571176269856" duration="7084000" />
       <workItem from="1571356809560" duration="4075000" />
       <workItem from="1571436181929" duration="3642000" />
+      <workItem from="1571462585813" duration="98000" />
+      <workItem from="1571607835248" duration="8904000" />
     </task>
     <servers />
   </component>
