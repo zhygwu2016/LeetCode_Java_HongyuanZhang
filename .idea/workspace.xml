@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC10_Regular_Expression_Matching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC118_Pascals_Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC119_Pascals_Triangle_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC186_Reverse_Words_in_a_String_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC242_Valid_Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC26_Remove_Duplicates_from_Sorted_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC28_Implement_strStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC44_Wildcard_Matching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC5_Longest_Palindromic_Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC80_Remove_Duplicates_from_Sorted_Array_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC82_Remove_Duplicates_from_Sorted_List_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC120_Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC140_Word_Break_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC152_Maximum_Product_Subarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC45_Jump_Game_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC53_Maximum_Subarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC55_Jump_Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC151_Reverse_Words_in_a_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC151_Reverse_Words_in_a_String.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +111,9 @@
       <workItem from="1571356809560" duration="4075000" />
       <workItem from="1571436181929" duration="3642000" />
       <workItem from="1571462585813" duration="98000" />
-      <workItem from="1571607835248" duration="8904000" />
+      <workItem from="1571607835248" duration="9268000" />
+      <workItem from="1572305926702" duration="1045000" />
+      <workItem from="1572555834948" duration="5616000" />
     </task>
     <servers />
   </component>
