@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC115_Distinct_Subsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC134_Gas_Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC135_Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC489_Robot_Room_Cleaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC72_Edit_Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC97_Interleaving_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC124_Binary_Tree_Maximum_Path_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC236_Lowest_Common_Ancestor_of_a_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC36_Valid_Sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC37_Sudoku_Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC51_N_Queens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC52_N_Queens_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC54_Spiral_Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC59_Spiral_Matrix_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +117,7 @@
       <workItem from="1571607835248" duration="9268000" />
       <workItem from="1572305926702" duration="1045000" />
       <workItem from="1572555834948" duration="5616000" />
-      <workItem from="1572644293401" duration="4107000" />
+      <workItem from="1572644293401" duration="14078000" />
     </task>
     <servers />
   </component>
