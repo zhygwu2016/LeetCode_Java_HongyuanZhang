@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC108_Convert_Sorted_Array_to_Binary_Search_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC109_Convert_Sorted_List_to_Binary_Search_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC112_Path_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC113_Path_Sum_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC114_Flatten_Binary_Tree_to_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC297_Serialize_and_Deserialize_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC437_Path_Sum_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC221_Maximal_Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC305_Number_of_Islands_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC62_Unique_Paths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC64_Minimum_Path_Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1571607835248" duration="9268000" />
       <workItem from="1572305926702" duration="1045000" />
       <workItem from="1572555834948" duration="5616000" />
-      <workItem from="1572644293401" duration="20472000" />
+      <workItem from="1572644293401" duration="28353000" />
     </task>
     <servers />
   </component>
