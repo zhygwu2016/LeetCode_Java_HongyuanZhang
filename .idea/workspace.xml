@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC221_Maximal_Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC305_Number_of_Islands_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC62_Unique_Paths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC64_Minimum_Path_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC208_Implement_Trie_Prefix_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,6 +110,7 @@
       <workItem from="1572305926702" duration="1045000" />
       <workItem from="1572555834948" duration="5616000" />
       <workItem from="1572644293401" duration="28353000" />
+      <workItem from="1573167326373" duration="2964000" />
     </task>
     <servers />
   </component>
