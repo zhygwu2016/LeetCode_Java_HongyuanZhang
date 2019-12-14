@@ -1,6 +1,7 @@
 package leetcode.java;
 
 import javax.swing.tree.TreeNode;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -37,6 +38,49 @@ public class LC145_Binary_Tree_Postorder_Traversal {
         }
 
         return result;
+    }
+}
+
+ */
+
+/*
+class Solution_AlgorithmMamba {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        if (root == null)  return res;
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(root);
+
+        TreeNode prev = null;
+
+        while (!stack.isEmpty()) {
+            TreeNode cur = stack.peek();
+            if (prev == null || prev.left == cur || prev.right == cur) {
+                if (cur.left != null) {
+                    stack.push(cur.left);
+                } else if (cur.right != null) {
+                    stack.push(cur.right);
+                } else {
+                    res.add(cur.val);
+                    stack.pop();
+                }
+            } else if (prev == cur.left) {
+                if (cur.right != null) {
+                    stack.push(cur.right);
+                } else {
+                    res.add(cur.val);
+                    stack.pop();
+                }
+            } else if (prev == cur.right) {
+                res.add(cur.val);
+                stack.pop();
+            }
+
+            prev = cur;
+        }
+
+        return res;
     }
 }
 
