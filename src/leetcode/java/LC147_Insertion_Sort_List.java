@@ -12,18 +12,13 @@ package leetcode.java;
  */
 
 public class LC147_Insertion_Sort_List {
-
-}
-
-/*
-public class LC147_Insertion_Sort_List {
     public ListNode insertionSortList(ListNode head) {
         if(head == null || head.next == null) return head;
 
         ListNode dummy = new ListNode(0);
         dummy.next = head;
 
-        ListNode cur = head.next, ListNode prev = head;
+        ListNode cur = head.next, prev = head;
 
         while(cur != null){
             if(prev.val > cur.val){
@@ -45,7 +40,7 @@ public class LC147_Insertion_Sort_List {
         return cur;
     }
 
-    private ListNode insert(ListNode dummy, ListNode node){
+    private void insert(ListNode dummy, ListNode node){
         ListNode prev = dummy, cur = dummy.next;
 
         while(cur.val < node.val){
@@ -58,4 +53,3 @@ public class LC147_Insertion_Sort_List {
     }
 }
 
- */

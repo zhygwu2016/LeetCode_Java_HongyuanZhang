@@ -6,10 +6,7 @@ package leetcode.java;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class LC23_Merge_k_Sorted_Lists {
-}
 
-/*
 public class LC23_Merge_k_Sorted_Lists {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists == null || lists.length == 0) return null;
@@ -45,4 +42,3 @@ public class LC23_Merge_k_Sorted_Lists {
     }
 }
 
- */

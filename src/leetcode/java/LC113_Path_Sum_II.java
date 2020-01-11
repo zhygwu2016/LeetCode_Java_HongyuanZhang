@@ -3,14 +3,9 @@ package leetcode.java;
 // 113. Path Sum II
 // https://leetcode.com/problems/path-sum-ii/
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LC113_Path_Sum_II {
-}
-
-/*
 public class LC113_Path_Sum_II {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         final List<List<Integer>> result = new ArrayList<>();
@@ -42,4 +37,3 @@ public class LC113_Path_Sum_II {
     }
 }
 
- */

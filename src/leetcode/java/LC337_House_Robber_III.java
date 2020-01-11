@@ -5,14 +5,9 @@ package leetcode.java;
 
 // https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem
 
-import javax.swing.tree.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LC337_House_Robber_III {
-}
-
-/*
 public class LC337_House_Robber_III {
     public int rob(TreeNode root) {
         if(root == null) return 0;
@@ -31,7 +26,7 @@ public class LC337_House_Robber_III {
     }
 }
 
-public class LC337_solution_2 {
+class LC337_solution_2 {
     public int rob(TreeNode root) {
         return robSub(root, new HashMap<>());
     }
@@ -63,7 +58,7 @@ public class LC337_solution_2 {
 // the first element of which denotes the maximum amount of money that
 // can be robbed if root is not robbed, while the second element signifies
 // the maximum amount of money robbed if it is robbed.
-public class LC337_solution_3 {
+class LC337_solution_3 {
     public int rob(TreeNode root) {
         int[] res = robSub(root);
         return Math.max(res[0], res[1]);
@@ -83,4 +78,3 @@ public class LC337_solution_3 {
     }
 }
 
- */

@@ -4,11 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/swap-nodes-in-pairs/
 
 public class LC24_Swap_Nodes_in_Pairs {
-
-}
-
-/*
-public class LC24_Swap_Nodes_in_Pairs {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null){
             return head;
@@ -25,10 +20,7 @@ public class LC24_Swap_Nodes_in_Pairs {
     }
 }
 
- */
-
-/*
-public class LC24_Swap_Nodes_in_Pairs {
+class LC24_Swap_Nodes_in_Pairs_2 {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null){
             return head;
@@ -50,4 +42,3 @@ public class LC24_Swap_Nodes_in_Pairs {
     }
 }
 
- */

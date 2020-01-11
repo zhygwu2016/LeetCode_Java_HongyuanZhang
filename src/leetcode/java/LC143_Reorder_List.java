@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/reorder-list/
 
 public class LC143_Reorder_List {
-}
-
-/*
-public class LC143_Reorder_List {
 
     public void reorderList(ListNode head) {
         if(head == null || head.next ==null) return;
@@ -63,4 +59,3 @@ public class LC143_Reorder_List {
     }
 }
 
- */

@@ -4,11 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/reverse-nodes-in-k-group/
 
 public class LC25_Reverse_Nodes_in_k_Group {
-
-}
-
-/*
-public class LC25_Reverse_Nodes_in_k_Group {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode pre = head;
         int count = 0;
@@ -36,4 +31,3 @@ public class LC25_Reverse_Nodes_in_k_Group {
     }
 }
 
- */

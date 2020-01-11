@@ -13,10 +13,6 @@ package leetcode.java;
  */
 
 public class LC148_Sort_List {
-
-}
-/*
-public class LC148_Sort_List {
     public ListNode sortList(ListNode head){
         if(head == null || head.next == null) return head;
 
@@ -61,5 +57,3 @@ public class LC148_Sort_List {
         return result;
     }
 }
-
- */

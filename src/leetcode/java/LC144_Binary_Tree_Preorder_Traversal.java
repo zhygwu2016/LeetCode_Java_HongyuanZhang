@@ -3,15 +3,10 @@ package leetcode.java;
 // 144. Binary Tree Preorder Traversal
 // https://leetcode.com/problems/binary-tree-preorder-traversal/
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class LC144_Binary_Tree_Preorder_Traversal {
-}
-
-/*
 public class LC144_Binary_Tree_Preorder_Traversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
@@ -31,10 +26,7 @@ public class LC144_Binary_Tree_Preorder_Traversal {
     }
 }
 
- */
-
-/*
-class Solution {
+class LC144 {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
         if (root == null) return res;
@@ -57,4 +49,3 @@ class Solution {
     }
 }
 
- */

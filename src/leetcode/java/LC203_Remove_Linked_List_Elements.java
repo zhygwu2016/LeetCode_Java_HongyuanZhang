@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/remove-linked-list-elements/
 
 public class LC203_Remove_Linked_List_Elements {
-}
-
-/*
-public class LC203_Remove_Linked_List_Elements {
     public ListNode removeElements(ListNode head, int val) {
         if(head == null) return null;
 
@@ -27,4 +23,3 @@ public class LC203_Remove_Linked_List_Elements {
     }
 }
 
- */

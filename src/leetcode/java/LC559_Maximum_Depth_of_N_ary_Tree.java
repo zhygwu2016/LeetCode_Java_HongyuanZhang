@@ -3,16 +3,9 @@ package leetcode.java;
 // 559. Maximum Depth of N-ary Tree
 // https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 
-import org.w3c.dom.Node;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC559_Maximum_Depth_of_N_ary_Tree {
-
-}
-
-/*
 public class LC559_Maximum_Depth_of_N_ary_Tree {
     public int maxDepth(Node root) {
         if(root == null) return 0;
@@ -38,7 +31,7 @@ public class LC559_Maximum_Depth_of_N_ary_Tree {
     }
 }
 
-class Solution{
+class LC559{
     public int maxDepth(Node root) {
         if(root == null) return 0;
 
@@ -51,4 +44,3 @@ class Solution{
     }
 }
 
- */

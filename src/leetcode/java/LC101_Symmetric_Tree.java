@@ -3,13 +3,6 @@ package leetcode.java;
 // 101. Symmetric Tree
 // https://leetcode.com/problems/symmetric-tree/
 
-import javax.swing.tree.TreeNode;
-
-public class LC101_Symmetric_Tree {
-
-}
-
-/*
 public class LC101_Symmetric_Tree {
     public boolean isSymmetric(TreeNode root) {
         if(root == null || (root.left == null && root.right == null)) return true;
@@ -27,4 +20,3 @@ public class LC101_Symmetric_Tree {
     }
 }
 
- */

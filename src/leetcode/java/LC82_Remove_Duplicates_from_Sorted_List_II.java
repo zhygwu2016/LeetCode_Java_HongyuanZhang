@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 
 public class LC82_Remove_Duplicates_from_Sorted_List_II {
-}
-
-/*
-public class LC82_Remove_Duplicates_from_Sorted_List_II {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null) return head;
 
@@ -24,7 +20,7 @@ public class LC82_Remove_Duplicates_from_Sorted_List_II {
 
             // If pre.next = cur, this means cur doesn't contains duplicates
             // else cur contains duplicates, pre.next should skip cur;
-            if(pre.next = cur){
+            if(pre.next == cur){
                 // No duplicate n
                 pre = cur;
             }else{
@@ -37,4 +33,3 @@ public class LC82_Remove_Duplicates_from_Sorted_List_II {
     }
 }
 
- */

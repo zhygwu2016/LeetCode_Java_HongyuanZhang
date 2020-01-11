@@ -3,15 +3,10 @@ package leetcode.java;
 // 94. Binary Tree Inorder Traversal
 // https://leetcode.com/problems/binary-tree-inorder-traversal/
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class LC94_Binary_Tree_Inorder_Traversal {
-}
-
-/*
 public class LC94_Binary_Tree_Inorder_Traversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
@@ -34,4 +29,3 @@ public class LC94_Binary_Tree_Inorder_Traversal {
     }
 }
 
- */

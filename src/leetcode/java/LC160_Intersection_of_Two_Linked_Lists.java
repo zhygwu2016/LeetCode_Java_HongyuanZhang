@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 public class LC160_Intersection_of_Two_Linked_Lists {
-}
-
-/*
-public class LC160_Intersection_of_Two_Linked_Lists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) return null;
 
@@ -22,4 +18,3 @@ public class LC160_Intersection_of_Two_Linked_Lists {
     }
 }
 
- */

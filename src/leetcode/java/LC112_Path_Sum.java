@@ -3,12 +3,6 @@ package leetcode.java;
 // 112. Path Sum
 // https://leetcode.com/problems/path-sum/
 
-import javax.swing.tree.TreeNode;
-
-public class LC112_Path_Sum {
-}
-
-/*
 public class LC112_Path_Sum {
     public boolean hasPathSum(TreeNode root, int sum) {
         if(root == null) return false;
@@ -21,4 +15,3 @@ public class LC112_Path_Sum {
     }
 }
 
- */

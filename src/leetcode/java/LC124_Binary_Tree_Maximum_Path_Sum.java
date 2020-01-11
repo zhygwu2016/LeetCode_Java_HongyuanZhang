@@ -3,12 +3,6 @@ package leetcode.java;
 // 124. Binary Tree Maximum Path Sum
 // https://leetcode.com/problems/binary-tree-maximum-path-sum/
 
-import javax.swing.tree.TreeNode;
-
-public class LC124_Binary_Tree_Maximum_Path_Sum {
-}
-
-/*
 public class LC124_Binary_Tree_Maximum_Path_Sum {
     public int maxPathSum(TreeNode root) {
         if(root == null) return 0;
@@ -40,4 +34,3 @@ public class LC124_Binary_Tree_Maximum_Path_Sum {
     }
 }
 
- */

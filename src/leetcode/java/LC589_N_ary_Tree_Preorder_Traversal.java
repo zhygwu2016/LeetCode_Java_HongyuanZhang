@@ -3,16 +3,10 @@ package leetcode.java;
 // 589. N-ary Tree Preorder Traversal
 // https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
-import org.w3c.dom.Node;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class LC589_N_ary_Tree_Preorder_Traversal {
-}
-
-/*
 public class LC589_N_ary_Tree_Preorder_Traversal {
     public List<Integer> preorder(Node root) {
         List<Integer> result = new ArrayList<>();
@@ -41,4 +35,3 @@ public class LC589_N_ary_Tree_Preorder_Traversal {
     }
 }
 
- */

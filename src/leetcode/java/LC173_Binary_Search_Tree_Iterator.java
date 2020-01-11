@@ -3,7 +3,6 @@ package leetcode.java;
 // 173. Binary Search Tree Iterator
 // https://leetcode.com/problems/binary-search-tree-iterator/
 
-import javax.swing.tree.TreeNode;
 import java.util.Stack;
 
 public class LC173_Binary_Search_Tree_Iterator {
@@ -19,35 +18,35 @@ public class LC173_Binary_Search_Tree_Iterator {
  * }
  */
 
-//class BSTIterator {
-//    Stack<TreeNode> stack;
-//
-//    public BSTIterator(TreeNode root) {
-//        stack = new Stack();
-//        pushLeftNode(root);
-//    }
-//
-//    /** @return the next smallest number */
-//    public int next() {
-//        TreeNode temp = stack.pop();
-//        if(temp.right != null){
-//            pushLeftNode(temp.right);
-//        }
-//        return temp.val;
-//    }
-//
-//    /** @return whether we have a next smallest number */
-//    public boolean hasNext() {
-//        return !stack.isEmpty();
-//    }
-//
-//    private void pushLeftNode(TreeNode root){
-//        while(root != null){
-//            stack.push(root);
-//            root = root.left;
-//        }
-//    }
-//}
+class BSTIterator {
+    Stack<TreeNode> stack;
+
+    public BSTIterator(TreeNode root) {
+        stack = new Stack();
+        pushLeftNode(root);
+    }
+
+    /** @return the next smallest number */
+    public int next() {
+        TreeNode temp = stack.pop();
+        if(temp.right != null){
+            pushLeftNode(temp.right);
+        }
+        return temp.val;
+    }
+
+    /** @return whether we have a next smallest number */
+    public boolean hasNext() {
+        return !stack.isEmpty();
+    }
+
+    private void pushLeftNode(TreeNode root){
+        while(root != null){
+            stack.push(root);
+            root = root.left;
+        }
+    }
+}
 
 
 /**

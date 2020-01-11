@@ -3,12 +3,6 @@ package leetcode.java;
 // 109. Convert Sorted List to Binary Search Tree
 // https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 
-import javax.swing.tree.TreeNode;
-
-public class LC109_Convert_Sorted_List_to_Binary_Search_Tree {
-}
-
-/*
 public class LC109_Convert_Sorted_List_to_Binary_Search_Tree {
     public TreeNode sortedListToBST(ListNode head) {
         if(head == null) return null;
@@ -39,4 +33,3 @@ public class LC109_Convert_Sorted_List_to_Binary_Search_Tree {
     }
 }
 
- */

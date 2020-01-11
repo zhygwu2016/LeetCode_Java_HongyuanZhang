@@ -3,12 +3,6 @@ package leetcode.java;
 // 114. Flatten Binary Tree to Linked List
 // https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 
-import javax.swing.tree.TreeNode;
-
-public class LC114_Flatten_Binary_Tree_to_Linked_List {
-}
-
-/*
 public class LC114_Flatten_Binary_Tree_to_Linked_List {
     public void flatten(TreeNode root) {
         if(root == null) return;
@@ -28,5 +22,3 @@ public class LC114_Flatten_Binary_Tree_to_Linked_List {
         pre[0] = root;
     }
 }
-
- */

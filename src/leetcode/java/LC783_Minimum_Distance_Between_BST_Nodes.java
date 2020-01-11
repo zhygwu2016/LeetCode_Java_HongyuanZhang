@@ -3,12 +3,6 @@ package leetcode.java;
 // 783. Minimum Distance Between BST Nodes
 // https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 
-import javax.swing.tree.TreeNode;
-
-public class LC783_Minimum_Distance_Between_BST_Nodes {
-}
-
-/*
 public class LC783_Minimum_Distance_Between_BST_Nodes {
     public int minDiffInBST(TreeNode root) {
         Integer[] result = new Integer[2];
@@ -31,8 +25,6 @@ public class LC783_Minimum_Distance_Between_BST_Nodes {
         inOrderTraverse(root.right, result);
     }
 }
-
- */
 
 /*
 In a binary search tree, an in-order traversal outputs the values of

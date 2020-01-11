@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 public class LC83_Remove_Duplicates_from_Sorted_List {
-}
-
-/*
-public class LC83_Remove_Duplicates_from_Sorted_List {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null) return head;
 
@@ -25,4 +21,3 @@ public class LC83_Remove_Duplicates_from_Sorted_List {
     }
 }
 
- */

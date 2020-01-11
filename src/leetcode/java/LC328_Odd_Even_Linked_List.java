@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/odd-even-linked-list/
 
 public class LC328_Odd_Even_Linked_List {
-}
-
-/*
-public class LC328_Odd_Even_Linked_List {
     public ListNode oddEvenList(ListNode head) {
         if(head == null || head.next == null) return head;
 
@@ -25,4 +21,3 @@ public class LC328_Odd_Even_Linked_List {
     }
 }
 
- */

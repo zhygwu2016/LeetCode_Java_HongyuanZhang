@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/plus-one-linked-list/
 
 public class LC369_Plus_One_Linked_List {
-}
-
-/*
-public class LC369_Plus_One_Linked_List {
     public ListNode plusOne(ListNode head) {
         if(head == null) return null;
 
@@ -53,5 +49,3 @@ public class LC369_Plus_One_Linked_List {
         }
     }
 }
-
- */

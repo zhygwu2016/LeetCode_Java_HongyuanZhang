@@ -3,11 +3,6 @@ package leetcode.java;
 // 206. Reverse Linked List
 // https://leetcode.com/problems/reverse-linked-list/
 
-public class LC206_Reverse_Linked_List {
-
-}
-
-/*
 
 // 1. iteration
 public class LC206_Reverse_Linked_List {
@@ -40,4 +35,3 @@ class LC206_recursion {
     }
 }
 
- */

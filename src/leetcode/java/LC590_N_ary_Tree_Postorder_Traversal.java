@@ -1,16 +1,10 @@
 package leetcode.java;
 
-import org.w3c.dom.Node;
-
 import javax.swing.tree.TreeNode;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class LC590_N_ary_Tree_Postorder_Traversal {
-}
-
-/*
 public class LC590_N_ary_Tree_Postorder_Traversal {
     public List<Integer> postorder(Node root) {
         LinkedList<Integer> result = new LinkedList<>();
@@ -35,4 +29,3 @@ public class LC590_N_ary_Tree_Postorder_Traversal {
 
 }
 
- */

@@ -3,12 +3,6 @@ package leetcode.java;
 // 110. Balanced Binary Tree
 // https://leetcode.com/problems/balanced-binary-tree/
 
-import javax.swing.tree.TreeNode;
-
-public class LC110_Balanced_Binary_Tree {
-}
-
-/*
 public class LC110_Balanced_Binary_Tree {
     public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
@@ -31,4 +25,3 @@ public class LC110_Balanced_Binary_Tree {
     }
 }
 
- */

@@ -3,14 +3,9 @@ package leetcode.java;
 // 662. Maximum Width of Binary Tree
 // https://leetcode.com/problems/maximum-width-of-binary-tree/
 
-import javax.swing.tree.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC662_Maximum_Width_of_Binary_Tree {
-}
-
-/*
 public class LC662_Maximum_Width_of_Binary_Tree {
     public int widthOfBinaryTree(TreeNode root) {
         if(root == null) return 0;
@@ -53,4 +48,3 @@ public class LC662_Maximum_Width_of_Binary_Tree {
     }
 }
 
- */

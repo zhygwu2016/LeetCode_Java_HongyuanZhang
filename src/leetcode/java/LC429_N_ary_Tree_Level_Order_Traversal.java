@@ -3,18 +3,24 @@ package leetcode.java;
 // 429. N-ary Tree Level Order Traversal
 // https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 
-import org.w3c.dom.Node;
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LC429_N_ary_Tree_Level_Order_Traversal {
-}
+class Node {
+    public int val;
+    public List<Node> children;
 
-/*
+    public Node() {}
+
+    public Node(int _val,List<Node> _children) {
+        val = _val;
+        children = _children;
+    }
+};
+
 public class LC429_N_ary_Tree_Level_Order_Traversal {
     public List<List<Integer>> levelOrder(Node root) {
         final List<List<Integer>> result = new ArrayList<>();
@@ -42,4 +48,3 @@ public class LC429_N_ary_Tree_Level_Order_Traversal {
     }
 }
 
- */

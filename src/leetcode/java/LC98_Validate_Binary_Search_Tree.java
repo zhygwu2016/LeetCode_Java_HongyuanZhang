@@ -3,12 +3,6 @@ package leetcode.java;
 // 98. Validate Binary Search Tree
 // https://leetcode.com/problems/validate-binary-search-tree/
 
-import javax.swing.tree.TreeNode;
-
-public class LC98_Validate_Binary_Search_Tree {
-}
-
-/*
 public class LC98_Validate_Binary_Search_Tree {
     public boolean isValidBST(TreeNode root) {
         if(root == null || (root.left == null && root.right == null)){
@@ -60,4 +54,3 @@ class solutionLC98{
     }
 }
 
- */

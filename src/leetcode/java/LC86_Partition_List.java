@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/partition-list/
 
 public class LC86_Partition_List {
-}
-
-/*
-public class LC86_Partition_List {
     public ListNode partition(ListNode head, int x) {
         if(head == null || head.next == null) return head;
 
@@ -35,4 +31,3 @@ public class LC86_Partition_List {
     }
 }
 
- */

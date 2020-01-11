@@ -3,9 +3,7 @@ package leetcode.java;
 // LC994. Rotting Oranges
 // https://leetcode.com/problems/rotting-oranges/
 
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Map;
 import java.util.Queue;
 
 public class LC994_Rotting_Oranges {

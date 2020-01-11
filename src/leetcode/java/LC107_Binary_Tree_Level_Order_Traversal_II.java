@@ -3,16 +3,11 @@ package leetcode.java;
 // 107. Binary Tree Level Order Traversal II
 // https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LC107_Binary_Tree_Level_Order_Traversal_II {
-}
-
-/*
 public class LC107_Binary_Tree_Level_Order_Traversal_II {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
@@ -39,4 +34,3 @@ public class LC107_Binary_Tree_Level_Order_Traversal_II {
     }
 }
 
- */

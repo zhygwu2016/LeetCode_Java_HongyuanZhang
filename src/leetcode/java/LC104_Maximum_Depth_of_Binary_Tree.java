@@ -3,14 +3,9 @@ package leetcode.java;
 // 104. Maximum Depth of Binary Tree
 // https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
-import javax.swing.tree.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC104_Maximum_Depth_of_Binary_Tree{
-}
-
-/*
 public class LC104_Maximum_Depth_of_Binary_Tree{
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
@@ -34,7 +29,7 @@ public class LC104_Maximum_Depth_of_Binary_Tree{
     }
 }
 
-class Solution {
+class LC104_Solution {
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
 
@@ -42,4 +37,3 @@ class Solution {
     }
 }
 
- */

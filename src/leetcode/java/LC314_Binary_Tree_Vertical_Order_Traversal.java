@@ -3,13 +3,8 @@ package leetcode.java;
 // 314. Binary Tree Vertical Order Traversal
 // https://leetcode.com/problems/binary-tree-vertical-order-traversal/
 
-import javax.swing.tree.TreeNode;
 import java.util.*;
 
-public class LC314_Binary_Tree_Vertical_Order_Traversal {
-}
-
-/*
 public class LC314_Binary_Tree_Vertical_Order_Traversal {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
@@ -58,4 +53,3 @@ public class LC314_Binary_Tree_Vertical_Order_Traversal {
     }
 }
 
- */

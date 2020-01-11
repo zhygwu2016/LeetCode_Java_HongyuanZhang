@@ -4,10 +4,6 @@ package leetcode.java;
 // https://leetcode.com/problems/merge-two-sorted-lists/
 
 public class LC21_Merge_Two_Sorted_Lists {
-}
-
-/*
-public class LC21_Merge_Two_Sorted_Lists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if(l1 == null) return l2;
         if(l2 == null) return l1;
@@ -35,4 +31,3 @@ public class LC21_Merge_Two_Sorted_Lists {
     }
 }
 
- */

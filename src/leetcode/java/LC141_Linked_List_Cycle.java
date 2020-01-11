@@ -16,11 +16,6 @@ package leetcode.java;
  */
 
 public class LC141_Linked_List_Cycle {
-
-}
-
-/*
-public class LC141_Linked_List_Cycle {
     public boolean hasCycle(ListNode head) {
         if(head == null || head.next == null) return false;
 
@@ -36,4 +31,3 @@ public class LC141_Linked_List_Cycle {
     }
 }
 
- */

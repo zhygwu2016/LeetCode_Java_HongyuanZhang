@@ -3,13 +3,9 @@ package leetcode.java;
 // 222. Count Complete Tree Nodes
 // https://leetcode.com/problems/count-complete-tree-nodes/
 
-import javax.swing.tree.TreeNode;
-
-public class LC222_Count_Complete_Tree_Nodes {
-}
 
 // https://leetcode.com/problems/count-complete-tree-nodes/discuss/61958/Concise-Java-solutions-O(log(n)2)
-/*
+
 public class LC222_Count_Complete_Tree_Nodes {
     public int countNodes(TreeNode root) {
         if(root == null) return 0;
@@ -37,5 +33,3 @@ public class LC222_Count_Complete_Tree_Nodes {
         return result;
     }
 }
-
- */

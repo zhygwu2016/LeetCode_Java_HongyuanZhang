@@ -1,11 +1,5 @@
 package leetcode.java;
 
-import javax.swing.tree.TreeNode;
-
-public class LC700_Search_in_a_Binary_Search_Tree {
-
-}
-
 // 700. Search in a Binary Search Tree
 // https://leetcode.com/problems/search-in-a-binary-search-tree/
 /**
@@ -18,7 +12,6 @@ public class LC700_Search_in_a_Binary_Search_Tree {
  * }
  */
 
-/*
 public class LC700_Search_in_a_Binary_Search_Tree {
     public TreeNode searchBST(TreeNode root, int val) {
         if(root == null) return null;
@@ -32,5 +25,4 @@ public class LC700_Search_in_a_Binary_Search_Tree {
         return result;
     }
 }
- */
 

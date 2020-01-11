@@ -1,6 +1,5 @@
 package leetcode.java;
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -16,10 +15,6 @@ import java.util.Stack;
                  post: 1 3 2 5 7 6 4
  */
 
-public class LC145_Binary_Tree_Postorder_Traversal {
-}
-
-/*
 public class LC145_Binary_Tree_Postorder_Traversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         LinkedList<Integer> result = new LinkedList<>();
@@ -41,9 +36,6 @@ public class LC145_Binary_Tree_Postorder_Traversal {
     }
 }
 
- */
-
-/*
 class Solution_AlgorithmMamba {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
@@ -84,4 +76,3 @@ class Solution_AlgorithmMamba {
     }
 }
 
- */

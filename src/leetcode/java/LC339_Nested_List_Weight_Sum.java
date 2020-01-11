@@ -2,6 +2,7 @@ package leetcode.java;
 
 import java.util.LinkedList;
 
+/*
 public class LC339_Nested_List_Weight_Sum {
     public int depthSum(List<NestedInteger> nestedList){
         int sum = 0, level = 1;
@@ -27,3 +28,5 @@ public class LC339_Nested_List_Weight_Sum {
         return sum;
     }
 }
+
+ */

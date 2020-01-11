@@ -3,13 +3,8 @@ package leetcode.java;
 // 297. Serialize and Deserialize Binary Tree
 // https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 
-import javax.swing.tree.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
-
-public class LC297_Serialize_and_Deserialize_Binary_Tree {
-
-}
 
 /**
  * Definition for a binary tree node.
@@ -20,8 +15,8 @@ public class LC297_Serialize_and_Deserialize_Binary_Tree {
  *     TreeNode(int x) { val = x; }
  * }
  */
-/*
-public class Codec {
+
+public class LC297_Serialize_and_Deserialize_Binary_Tree {
 
     // Encodes a tree to a single string.
     // Use Level Order to encode, add null to maker it a "complete" tree
@@ -75,8 +70,6 @@ public class Codec {
         return root;
     }
 }
-
- */
 
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();

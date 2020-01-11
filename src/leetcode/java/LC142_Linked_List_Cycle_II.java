@@ -15,10 +15,6 @@ package leetcode.java;
                       t
  */
 public class LC142_Linked_List_Cycle_II {
-
-}
-/*
-public class LC142_Linked_List_Cycle_II {
     public ListNode detectCycle(ListNode head) {
         if(head == null || head.next == null) return null;
 
@@ -44,4 +40,3 @@ public class LC142_Linked_List_Cycle_II {
     }
 }
 
- */

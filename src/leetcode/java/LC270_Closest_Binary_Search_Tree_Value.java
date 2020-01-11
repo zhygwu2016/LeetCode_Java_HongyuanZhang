@@ -3,12 +3,6 @@ package leetcode.java;
 // 270. Closest Binary Search Tree Value
 // https://leetcode.com/problems/closest-binary-search-tree-value/
 
-import javax.swing.tree.TreeNode;
-
-public class LC270_Closest_Binary_Search_Tree_Value {
-}
-
-/*
 public class LC270_Closest_Binary_Search_Tree_Value {
     public int closestValue(TreeNode root, double target) {
         if(root == null) return Integer.MAX_VALUE;
@@ -32,4 +26,3 @@ public class LC270_Closest_Binary_Search_Tree_Value {
     }
 }
 
- */

@@ -11,9 +11,6 @@ package leetcode.java;
  */
 
 public class LC92_Reverse_Linked_List_II {
-}
-/*
-public class LC92_Reverse_Linked_List_II {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if(head == null || head.next == null || m == n) return head;
 
@@ -44,7 +41,7 @@ public class LC92_Reverse_Linked_List_II {
     }
 
     private ListNode reverseLinkedList(ListNode head){
-        ListNode pre = null, cur = head; post = cur.next;
+        ListNode pre = null, cur = head, post = cur.next;
 
         while(cur != null){
             post = cur.next;
@@ -57,4 +54,3 @@ public class LC92_Reverse_Linked_List_II {
     }
 }
 
- */
