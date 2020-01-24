@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC572_Subtree_of_Another_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/java/Lint628_Maximum_Subtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/java/Lint632_Binary_Tree_Maximum_Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC230_Kth_Smallest_Element_in_a_BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC272_Closest_Binary_Search_Tree_Value_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC380_Insert_Delete_GetRandom_O1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC381_Insert_Delete_GetRandom_O1_Duplicates_allowed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC785_Is_Graph_Bipartite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/somethingElse/java/find_right_node_in_Binary_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC339_Nested_List_Weight_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC339_Nested_List_Weight_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC215_Kth_Largest_Element_in_an_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC215_Kth_Largest_Element_in_an_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC270_Closest_Binary_Search_Tree_Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC270_Closest_Binary_Search_Tree_Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +133,10 @@
       <workItem from="1578706882549" duration="5937000" />
       <workItem from="1579039030866" duration="418000" />
       <workItem from="1579039558693" duration="715000" />
-      <workItem from="1579040683271" duration="1170000" />
+      <workItem from="1579040683271" duration="8572000" />
+      <workItem from="1579730769580" duration="5000" />
+      <workItem from="1579740992424" duration="284000" />
+      <workItem from="1579812166789" duration="3735000" />
     </task>
     <servers />
   </component>
@@ -149,10 +157,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1579040686546">
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1579812169959">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578706886178" />
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579040686546" />
+    <state x="397" y="274" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579740993616" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579812169959" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1579814358987">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579814358987" />
   </component>
 </project>

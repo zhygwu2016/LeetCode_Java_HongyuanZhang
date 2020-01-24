@@ -3,6 +3,9 @@ package leetcode.java;
 // 215. Kth Largest Element in an Array
 // https://leetcode.com/problems/kth-largest-element-in-an-array/
 
+import java.util.PriorityQueue;
+
+// Quickselect
 public class LC215_Kth_Largest_Element_in_an_Array {
     public int findKthLargest(int[] nums, int k){
         if(nums == null || nums.length == 0 || k <= 0) return -1;
@@ -27,12 +30,31 @@ public class LC215_Kth_Largest_Element_in_an_Array {
 
         if(index == k) return nums[k];
         else if(index < k) return quickSelection(nums, index + 1, end, k);
-        else return quickSelection(nums, 0, index - 1, k);
+        else return quickSelection(nums, begin, index - 1, k);
     }
 
     private void swap(int[] nums, int i, int j){
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
+    }
+}
+
+// Heap
+class LC215_2 {
+    public int findKthLargest(int[] nums, int k) {
+        // init heap 'the smallest element first'
+        PriorityQueue<Integer> heap =
+                new PriorityQueue<Integer>((n1, n2) -> n1 - n2);
+
+        // keep k largest elements in the heap
+        for (int n: nums) {
+            heap.add(n);
+            if (heap.size() > k)
+                heap.poll();
+        }
+
+        // output
+        return heap.poll();
     }
 }
