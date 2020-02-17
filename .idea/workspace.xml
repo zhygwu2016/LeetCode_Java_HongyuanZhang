@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC230_Kth_Smallest_Element_in_a_BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC272_Closest_Binary_Search_Tree_Value_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC380_Insert_Delete_GetRandom_O1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC381_Insert_Delete_GetRandom_O1_Duplicates_allowed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC785_Is_Graph_Bipartite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/somethingElse/java/find_right_node_in_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC207_Course_Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC210_Course_Schedule_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC269_Alien_Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC295_Find_Median_from_Data_Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC673_Number_of_Longest_Increasing_Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC958_Check_Completeness_of_a_Binary_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC215_Kth_Largest_Element_in_an_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC215_Kth_Largest_Element_in_an_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC270_Closest_Binary_Search_Tree_Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC270_Closest_Binary_Search_Tree_Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC110_Balanced_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC110_Balanced_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC381_Insert_Delete_GetRandom_O1_Duplicates_allowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC381_Insert_Delete_GetRandom_O1_Duplicates_allowed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,11 @@
       <workItem from="1579040683271" duration="8572000" />
       <workItem from="1579730769580" duration="5000" />
       <workItem from="1579740992424" duration="284000" />
-      <workItem from="1579812166789" duration="3735000" />
+      <workItem from="1579812166789" duration="6326000" />
+      <workItem from="1580453207551" duration="2640000" />
+      <workItem from="1581548722395" duration="896000" />
+      <workItem from="1581732241070" duration="265000" />
+      <workItem from="1581732952879" duration="7564000" />
     </task>
     <servers />
   </component>

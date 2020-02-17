@@ -20,7 +20,7 @@ class RandomizedCollection {
 
     public RandomizedCollection() {
         list = new ArrayList<Integer>();
-        idx = new HashMap<Integer, Set<Integer>>();
+        idx = new HashMap<Integer, Set<Integer>>() ;
     }
 
     /** Inserts a value to the collection. Returns true if the collection did not already contain the specified element. */

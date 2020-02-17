@@ -13,7 +13,7 @@ public class LC110_Balanced_Binary_Tree {
         if(Math.abs(leftDepth - rightDepth) > 1) return false;
 
         return isBalanced(root.left) && isBalanced(root.right);
-    }
+    } 
 
     private int getDepth(TreeNode root){
         if(root == null) return 0;
