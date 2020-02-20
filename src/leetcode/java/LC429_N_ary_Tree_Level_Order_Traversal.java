@@ -9,19 +9,18 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class Node {
-    public int val;
-    public List<Node> children;
-
-    public Node() {}
-
-    public Node(int _val,List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-
 public class LC429_N_ary_Tree_Level_Order_Traversal {
+    class Node {
+        public int val;
+        public List<Node> children;
+
+        public Node() {}
+        public Node(int _val,List<Node> _children) {
+            val = _val;
+            children = _children;
+        }
+    };
+
     public List<List<Integer>> levelOrder(Node root) {
         final List<List<Integer>> result = new ArrayList<>();
 
@@ -35,10 +34,10 @@ public class LC429_N_ary_Tree_Level_Order_Traversal {
             List<Integer> list = new ArrayList<>();
 
             while(size-- > 0){
-                Node node = queue.poll();
-                list.add(node.val);
+                Node Node = queue.poll();
+                list.add(Node.val);
 
-                for(Node n : node.children){
+                for(Node n : Node.children){
                     if(n != null) queue.offer(n);
                 }
             }

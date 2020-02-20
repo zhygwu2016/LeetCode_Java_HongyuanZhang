@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC1074_Number_of_Submatrices_That_Sum_to_Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC1120_Maximum_Average_Subtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC1123_Lowest_Common_Ancestor_of_Deepest_Leaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC211_Add_and_Search_Word_Data_structure_design.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC560_Subarray_Sum_Equals_K.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC739_Daily_Temperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC116_Populating_Next_Right_Pointers_in_Each_Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC117_Populating_Next_Right_Pointers_in_Each_Node_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC133_Clone_Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC138_Copy_List_with_Random_Pointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC146_LRU_Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC159_Longest_Substring_with_At_Most_Two_Distinct_Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC200_Number_of_Islands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC252_Meeting_Rooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC253_Meeting_Rooms_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC259_3Sum_Smaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC261_Graph_Valid_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC432_All_O_one_Data_Structure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC429_N_ary_Tree_Level_Order_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC429_N_ary_Tree_Level_Order_Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +145,7 @@
       <workItem from="1580453207551" duration="2640000" />
       <workItem from="1581548722395" duration="896000" />
       <workItem from="1581732241070" duration="265000" />
-      <workItem from="1581732952879" duration="9307000" />
+      <workItem from="1581732952879" duration="18680000" />
     </task>
     <servers />
   </component>
@@ -163,9 +171,14 @@
     </state>
     <state x="397" y="274" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579740993616" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579812169959" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1579814358987">
+    <state x="301" y="37" width="837" height="825" key="find.popup" timestamp="1582056768229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="301" y="37" width="837" height="825" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1582056768229" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582159182295">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582159182295" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579814358987" />
   </component>
 </project>
