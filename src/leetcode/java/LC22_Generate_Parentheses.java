@@ -70,3 +70,36 @@ class LC22_Generate_Parentheses_solution2 {
         }
     }
 }
+
+class LC22_AlgorithmAdvanced {
+    public List<String> generateParenthesis(int n) {
+        if (n <= 0) {
+            throw new IllegalArgumentException();
+        }
+
+        List<String> res = new ArrayList<>();
+        DFS(res, new StringBuilder(), 0, 0, n, 0);
+        return res;
+    }
+
+    private void DFS(List<String> res, StringBuilder sb, int l, int r, int n, int step) {
+        if (step == 2 * n && l == r) {
+            String s = sb.toString();
+            res.add(s);
+            return;
+        }
+
+        if (step > 2 * n || l > n || l < r) return;
+
+        if (l < n) {
+            sb.append("(");
+            DFS(res, sb, l + 1, r, n, step + 1);
+            sb.setLength(sb.length() - 1);
+        }
+        if (l > r) {
+            sb.append(")");
+            DFS(res, sb, l, r + 1, n, step + 1);
+            sb.setLength(sb.length() - 1);
+        }
+    }
+}
