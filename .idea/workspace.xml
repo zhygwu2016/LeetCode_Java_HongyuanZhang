@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC121_Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC122_Best_Time_to_Buy_and_Sell_Stock_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC282_Expression_Add_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC301_Remove_Invalid_Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC79_Word_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC93_Restore_IP_Addresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC320_Generalized_Abbreviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC488_Zuma_Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC22_Generate_Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC22_Generate_Parentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC559_Maximum_Depth_of_N_ary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC559_Maximum_Depth_of_N_ary_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +140,7 @@
       <workItem from="1581732241070" duration="265000" />
       <workItem from="1581732952879" duration="19197000" />
       <workItem from="1582171147948" duration="1540000" />
-      <workItem from="1582846305799" duration="9054000" />
+      <workItem from="1582846305799" duration="15373000" />
     </task>
     <servers />
   </component>
