@@ -109,3 +109,48 @@ class LC200_BFS {
         return num_islands;
     }
 }
+
+// 算法加强 dfs
+class LC200_DFS {
+    public int numIslands(char[][] grid) {
+        if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
+            return 0;
+        }
+
+        int row = grid.length, col = grid[0].length;
+        boolean[][] visited = new boolean[row][col];
+
+        int count = 0;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (!visited[i][j] && grid[i][j] == '1') {
+                    count++;
+                    dfs(grid, i, j, visited);
+                }
+            }
+        }
+
+        return count;
+    }
+
+    private void dfs(char[][] grid, int i, int j, boolean[][] visited) {
+        int row = grid.length, col = grid[0].length;
+
+        if (i < 0 || i >= row || j < 0 || j >= col
+            || visited[i][j] || grid[i][j] == '0') {
+            return;
+        }
+
+        visited[i][j] = true;
+
+        dfs(grid, i - 1, j, visited);
+        dfs(grid, i + 1, j, visited);
+        dfs(grid, i, j - 1, visited);
+        dfs(grid, i, j + 1, visited);
+    }
+}
+
+// 每个点 被摸了5次
+// O(mn)
+// follow up 最大岛的面积
+

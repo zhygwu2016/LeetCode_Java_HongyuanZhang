@@ -39,3 +39,23 @@ public class LC137_Single_Number_II {
         return answer;
     }
 }
+
+// 算法加强
+class Solution_LC137 {
+    public int singleNumber(int[] nums) {
+        if(nums == null || nums.length == 0) return Integer.MAX_VALUE;
+
+        int[] rec = new int[32];
+        for (int n : nums) {
+            for (int i = 0; i < 32; i++) {
+                rec[i] += n & 1;
+                n = n >> 1;
+            }
+        }
+        int res = 0;
+        for (int i = 0; i < 32; i++) {
+            res += ((rec[i] % 3) << i);
+        }
+        return res;
+    }
+}
