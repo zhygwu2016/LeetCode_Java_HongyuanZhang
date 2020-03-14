@@ -38,3 +38,5 @@ public class LC329_Longest_Increasing_Path_in_a_Matrix {
         return max + 1;
     }
 }
+
+// Time: O(M*N)
