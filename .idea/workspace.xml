@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/FairIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Largest_number_X_which_occurs_X_times.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Lexicographically_Smallest_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Longest_Substring_Without_3_Contiguous_Occurrences_of_Letter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Max_Network_Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Min_Adj_Swaps_to_Make_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Min_Moves_to_Obtain_String_Without_3_Identical_Consecutive_Letters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Microsoft/Numbers_With_Equal_Digit_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC695_Max_Area_of_Island.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC132_Palindrome_Partitioning_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC312_Burst_Balloons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +141,7 @@
       <workItem from="1581732952879" duration="19197000" />
       <workItem from="1582171147948" duration="1540000" />
       <workItem from="1582846305799" duration="39731000" />
-      <workItem from="1584056154385" duration="10915000" />
+      <workItem from="1584056154385" duration="15622000" />
     </task>
     <servers />
   </component>
