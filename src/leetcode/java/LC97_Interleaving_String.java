@@ -3,6 +3,42 @@ package leetcode.java;
 import java.util.HashSet;
 import java.util.Set;
 
+// 算法加强
+// boolean dp[i][j]: s1 [0, i)
+//                   s2 [0, j)    与s3 [0, k)  match T/F
+class LC97_DP {
+    public boolean isInterleave(String s1, String s2, String s3) {
+        if(s1 == null && s2 == null && s3 == null) return true;
+        if(s1 == null || s2 == null || s3 == null) return false;
+
+        int len1 = s1.length(), len2 = s2.length(), len3 = s3.length();
+        if (len1 + len2 != len3)  return false;
+
+        boolean[][] dp = new boolean[len1 + 1][len2 + 1];
+        dp[0][0] = true;
+        for (int i = 0; i < len1; i++) {
+            dp[i + 1][0] = dp[i][0] && (s1.charAt(i) == s3.charAt(i));
+        }
+        for (int i = 0; i < len2; i++) {
+            dp[0][i + 1] = dp[0][i] && (s2.charAt(i) == s3.charAt(i));
+        }
+
+        for (int i = 0; i < len1; i++) {
+            for (int j = 0; j < len2; j++) {
+                int k = i + j + 1;
+                if (s1.charAt(i) == s3.charAt(k)) {
+                    dp[i + 1][j + 1] = dp[i][j + 1];
+                }
+                if (s2.charAt(j) == s3.charAt(k)) {
+                    dp[i + 1][j + 1] = dp[i + 1][j + 1] || dp[i + 1][j];
+                }
+            }
+        }
+
+        return dp[len1][len2];
+    }
+}
+
 public class LC97_Interleaving_String {
 /*
     The private method isInterleave is the recursive method. It takes additional
