@@ -56,7 +56,7 @@ class LC98_2 {
     }
 }
 
-class solutionLC98{
+class SolutionLC98{
     public boolean isValidBST(TreeNode root) {
         if(root == null || (root.left == null && root.right == null)){
             return true;
@@ -85,6 +85,36 @@ class solutionLC98{
         }
 
         inOrder(pre, root.right, result);
+    }
+}
+
+// 算法加强
+class LC98{
+    public boolean isValidBST(TreeNode root) {
+        if(root == null || (root.left == null && root.right == null)){
+            return true;
+        }
+
+        Integer[] prev = new Integer[1];
+        prev[0] = null;
+        return helper(root, prev);
+    }
+
+    private boolean helper(TreeNode root, Integer[] prev) {
+        if (root == null) {
+            return true;
+        }
+
+        if (!helper(root.left, prev)) {
+            return false;
+        }
+
+        if (prev[0] != null && root.val <= prev[0]) {
+            return false;
+        }
+
+        prev[0] = root.val;
+        return helper(root.right, prev);
     }
 }
 

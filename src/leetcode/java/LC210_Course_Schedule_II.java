@@ -8,6 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+// DFS
 public class LC210_Course_Schedule_II {
     private enum Status{
         INITIAL,
@@ -81,28 +82,28 @@ class LC210_BFS {
         int[] res = new int[numCourses];
         int index = 0;
 
-        for(int i=0;i<numCourses;i++) {
+        for (int i = 0; i < numCourses; i++) {
             graph[i] = new ArrayList<>();
         }
 
-        for(int i = 0; i < prerequisites.length; i++){
+        for (int i = 0; i < prerequisites.length; i++){
             degree[prerequisites[i][0]]++;
             graph[prerequisites[i][1]].add(prerequisites[i][0]);
         }
 
-        for(int i=0; i<degree.length;i++){
-            if(degree[i] == 0){
+        for (int i = 0; i < degree.length; i++){
+            if (degree[i] == 0){
                 res[index++] = i;
                 queue.add(i);
             }
         }
 
-        while(queue.size() != 0){
+        while (queue.size() != 0) {
             int course = (int)queue.poll();
-            for(int i=0; i<graph[course].size();i++){
+            for (int i = 0; i < graph[course].size(); i++){
                 int pointer = (int)graph[course].get(i);
                 degree[pointer]--;
-                if(degree[pointer] == 0){
+                if (degree[pointer] == 0) {
                     res[index++] = pointer;
                     queue.add(pointer);
                 }

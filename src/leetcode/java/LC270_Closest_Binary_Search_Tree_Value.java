@@ -73,3 +73,25 @@ public class LC270_Closest_Binary_Search_Tree_Value {
     }
 }
 
+// 算法加强
+class Solution_LC270 {
+    public int closestValue(TreeNode root, double target) {
+        return helper(root, target, root.val);
+    }
+
+    private int helper(TreeNode root, double target, int closest) {
+        if (root == null)  return closest;
+
+        if (Math.abs((double)root.val - target) < Math.abs((double)closest - target)) {
+            closest = root.val;
+        }
+
+        if (root.val < target) {
+            closest = helper(root.right, target, closest);
+        } else if (root.val > target) {
+            closest = helper(root.left, target, closest);
+        }
+
+        return closest;
+    }
+}

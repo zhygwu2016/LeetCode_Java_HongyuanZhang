@@ -17,7 +17,7 @@ public class LC305_Number_of_Islands_II {
             int i = point[0], j = point[1], p = uf.index(point[0], point[1]);
             uf.addIsland(p);
 
-            List<int[]> neis = getNeignbour(i, j, row, col);
+            List<int[]> neis = getNeighbour(i, j, row, col);
             for(int[] nei : neis){
                 int q = uf.index(nei[0], nei[1]);
                 if(uf.isIsland(q) && !uf.find(p, q)) uf.union(p, q);
@@ -27,7 +27,7 @@ public class LC305_Number_of_Islands_II {
         return res;
     }
 
-    private List<int[]> getNeignbour(int i, int j, int row, int col){
+    private List<int[]> getNeighbour(int i, int j, int row, int col){
         List<int[]> res = new ArrayList<int[]>();
         if(i - 1 >= 0){ int[] one = new int[2]; one[0] = i - 1; one[1] = j; res.add(one); }
         if(i + 1 < row){ int[] one = new int[2]; one[0] = i + 1; one[1] = j; res.add(one); }

@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // level order traverse
+// Not constant space
 public class LC117_Populating_Next_Right_Pointers_in_Each_Node_II {
     // Definition for a Node.
     class Node {
@@ -23,7 +24,8 @@ public class LC117_Populating_Next_Right_Pointers_in_Each_Node_II {
             right = _right;
             next = _next;
         }
-    };
+    }
+
     public Node connect(Node root) {
         if (root == null) {
             return root;
@@ -72,9 +74,11 @@ class LC117 {
     };
 
     Node prev, leftmost;
+    // leftmost: 当前层最左边Node
+    // prev: 下一层的上一个childNode
+    // 方法：走这一层，用processChild()链接下一层相邻的childNode
 
     public Node connect(Node root) {
-
         if (root == null) {
             return root;
         }
@@ -83,17 +87,12 @@ class LC117 {
         // and hence its the leftmost node for that level
         this.leftmost = root;
 
-        // Variable to keep track of leading node on the "current" level
         Node curr = leftmost;
 
-        // We have no idea about the structure of the tree,
-        // so, we keep going until we do find the last level.
-        // the nodes on the last level won't have any children
         while (this.leftmost != null) {
 
             // "prev" tracks the latest node on the "next" level
-            // while "curr" tracks the latest node on the current
-            // level.
+            // while "curr" tracks the latest node on the current level
             this.prev = null;
             curr = this.leftmost;
 
@@ -111,7 +110,6 @@ class LC117 {
                 this.processChild(curr.left);
                 this.processChild(curr.right);
 
-                // Move onto the next node.
                 curr = curr.next;
             }
         }
@@ -123,17 +121,12 @@ class LC117 {
 
         if (childNode != null) {
 
-            // If the "prev" pointer is alread set i.e. if we
-            // already found atleast one node on the next level,
-            // setup its next pointer
+            // If the "prev" pointer is already set, setup its next pointer
             if (this.prev != null) {
                 this.prev.next = childNode;
 
             } else {
-
-                // Else it means this child node is the first node
-                // we have encountered on the next level, so, we
-                // set the leftmost pointer
+                // else it means this child node is the first node
                 this.leftmost = childNode;
             }
 

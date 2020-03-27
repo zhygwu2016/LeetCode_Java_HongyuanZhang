@@ -64,3 +64,4 @@ public class LC261_Graph_Valid_Tree {
         return uf.size == 1;
     }
 }
+// Time: O(NlogN)

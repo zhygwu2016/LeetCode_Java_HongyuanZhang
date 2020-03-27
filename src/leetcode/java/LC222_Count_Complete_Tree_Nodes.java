@@ -33,3 +33,36 @@ public class LC222_Count_Complete_Tree_Nodes {
         return result;
     }
 }
+
+// Time: O(logN * logN)
+
+// 算法加强
+class LC222 {
+    public int countNodes(TreeNode root) {
+        if(root == null) return 0;
+        if(root.left == null && root.right == null) return 1;
+
+        int lHeight = getHeight(root.left);
+        int rHeight = getHeight(root.right);
+
+        int count = 1;
+        if (lHeight > rHeight) { // right subtree is a full tree
+            count += (1 << rHeight) - 1;
+            return count + countNodes(root.left);
+        } else if (lHeight == rHeight) { // left subtree is a full tree
+            count += (1 << lHeight) - 1;
+            return count + countNodes(root.right);
+        } else {
+            return -1;
+        }
+    }
+
+    private int getHeight(TreeNode root) {
+        int height = 0;
+        while (root != null) {
+            height++;
+            root = root.left;
+        }
+        return height;
+    }
+}

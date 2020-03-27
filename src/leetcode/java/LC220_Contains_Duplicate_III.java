@@ -18,6 +18,11 @@ public class LC220_Contains_Duplicate_III {
             Long upper = (long)nums[i] + t;
             Long lower = (long)nums[i] - t;
 
+            // The lower(E ele) method of TreeSet class in Java is used to
+            // return the greatest element in this set which is strictly
+            // less than the given element.
+            // If no such element exists in this TreeSet collection then
+            // this method returns a NULL.
             Long temp = set.lower(upper + 1);
 
             if(temp != null && temp >= lower){
@@ -30,3 +35,5 @@ public class LC220_Contains_Duplicate_III {
         return false;
     }
 }
+
+// Time: O(N logk)
