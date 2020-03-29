@@ -40,3 +40,44 @@ public class LC159_Longest_Substring_with_At_Most_Two_Distinct_Characters {
         return max_len;
     }
 }
+
+// 算法加强
+class LC159 {
+    public int lengthOfLongestSubstringTwoDistinct(String s) {
+        if (s == null || s.length() == 0)  return 0;
+
+        int len = s.length();
+
+        // 分别记录两个distinct character的value以及对应的index
+        char c1 = '\0', c2 = '\0';
+        int idx1 = -1, idx2 = -1;
+
+        int start = 0;
+        int max = 0;
+
+        for (int i = 0; i < len; i++) {
+            char c = s.charAt(i);
+
+            if (c == c1) {
+                idx1 = i;
+            } else if (c == c2) {
+                idx2 = i;
+            } else { // 出现了第三个distinct character
+                if (idx1 < idx2) {
+                    start = idx1 + 1;
+                    c1 = c;
+                    idx1 = i;
+                } else {
+                    start = idx2 + 1;
+                    c2 = c;
+                    idx2 = i;
+                }
+            }
+
+            max = Math.max(max, i - start + 1);
+        }
+
+        return max;
+    }
+}
+

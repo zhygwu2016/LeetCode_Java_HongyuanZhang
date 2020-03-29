@@ -50,3 +50,19 @@ public class LC99_Recover_Binary_Search_Tree {
         check(root.right, mistake);
     }
 }
+/*
+e.g. 某个错了的BST 拉直后是 [1, 5, 3, 4, 2, 6, 7]
+
+int[] mistake 找到两个错位的node （5， 2）
+
+第一次出错：..., 5, 3, ...
+第二次出错：..., 4, 2, ...
+第一次出错：(比如上面的5， 3)  → 我们要的是mistake[0] → 5
+第二次出错：(比如上面的4， 2)  → 我们要的是mistake[1] → 2
+
+我们的code的逻辑是：mistake[1] = root;
+第一次出错的时候，我们也记录mistake[1]，反正在第二次出错的时候，
+我们也会再改mistake[1]的值。
+最终mistake[1]是我们想要的。这样第一次第二次的逻辑就可以合并成一个code了。
+
+ */
