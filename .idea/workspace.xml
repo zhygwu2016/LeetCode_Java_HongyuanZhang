@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC2_Add_Two_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC340_Longest_Substring_with_At_Most_K_Distinct_Characters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC445_Add_Two_Numbers_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC456_132_Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC694_Number_of_Distinct_Islands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC894_All_Possible_Full_Binary_Trees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC698_Partition_to_K_Equal_Sum_Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC90_Subsets_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC109_Convert_Sorted_List_to_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC109_Convert_Sorted_List_to_Binary_Search_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC159_Longest_Substring_with_At_Most_Two_Distinct_Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC159_Longest_Substring_with_At_Most_Two_Distinct_Characters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC44_Wildcard_Matching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC44_Wildcard_Matching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC99_Recover_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC99_Recover_Binary_Search_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +143,7 @@
       <workItem from="1582171147948" duration="1540000" />
       <workItem from="1582846305799" duration="39731000" />
       <workItem from="1584056154385" duration="19275000" />
-      <workItem from="1584821376337" duration="67930000" />
+      <workItem from="1584821376337" duration="75530000" />
     </task>
     <servers />
   </component>
