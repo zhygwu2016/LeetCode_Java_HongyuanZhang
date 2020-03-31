@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC402_Remove_K_Digits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC729_My_Calendar_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC731_My_Calendar_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC732_My_Calendar_III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,6 +149,7 @@
       <workItem from="1585606588417" duration="299000" />
       <workItem from="1585608325991" duration="132000" />
       <workItem from="1585609739457" duration="247000" />
+      <workItem from="1585625326959" duration="3869000" />
     </task>
     <servers />
   </component>
@@ -178,10 +183,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="135" y="23" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1582169006839" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585446218534">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585638877502">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1585446218534" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1585638877502" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579814358987" />
   </component>
 </project>
