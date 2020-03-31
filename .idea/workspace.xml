@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC698_Partition_to_K_Equal_Sum_Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC90_Subsets_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +141,10 @@
       <workItem from="1582171147948" duration="1540000" />
       <workItem from="1582846305799" duration="39731000" />
       <workItem from="1584056154385" duration="19275000" />
-      <workItem from="1584821376337" duration="75530000" />
+      <workItem from="1584821376337" duration="75639000" />
+      <workItem from="1585606588417" duration="299000" />
+      <workItem from="1585608325991" duration="132000" />
+      <workItem from="1585609739457" duration="247000" />
     </task>
     <servers />
   </component>
