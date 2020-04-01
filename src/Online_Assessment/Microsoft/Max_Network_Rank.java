@@ -19,7 +19,7 @@ We compare the current rank for the pair of nodes with the max known value so fa
 and if the current rank is bigger we save that.
  */
 
-public class Max_Network_Rank {
+public class  Max_Network_Rank {
     public static int solution(int[] A, int[] B, int N) {
         int maxRank = 0;
         int edgesLen = A.length;

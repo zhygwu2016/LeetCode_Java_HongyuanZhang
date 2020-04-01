@@ -9,7 +9,8 @@ import java.util.PriorityQueue;
 
 public class LC23_Merge_k_Sorted_Lists {
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists == null || lists.length == 0) return null;
+
+        if (lists == null || lists.length == 0) return null;
 
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
@@ -21,18 +22,19 @@ public class LC23_Merge_k_Sorted_Lists {
             }
         });
 
-        for(ListNode l : lists){
+        for (ListNode l : lists) {
             if(l != null) pq.offer(l);
         }
 
-        while(!pq.isEmpty()){
+        while (!pq.isEmpty()) {
             ListNode top = pq.poll();
             cur.next = top;
             top = top.next;
 
-            if(top != null){
+            if (top != null) {
                 pq.offer(top);
             }
+
             cur = cur.next;
         }
 
