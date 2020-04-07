@@ -43,3 +43,6 @@ public class LC79_Word_Search {
         return false;
     }
 }
+
+// Time: O(N * 4^L)
+// N is the number of cells, L is the length of the word to be matched
