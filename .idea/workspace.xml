@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC212_Word_Search_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC47_Permutations_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC549_Binary_Tree_Longest_Consecutive_Sequence_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC742_Closest_Leaf_in_a_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC909_Snakes_and_Ladders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC17_Letter_Combinations_of_a_Phone_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC199_Binary_Tree_Right_Side_View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC32_Longest_Valid_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC428_Serialize_and_Deserialize_N_ary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC449_Serialize_and_Deserialize_BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC472_Concatenated_Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC543_Diameter_of_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC701_Insert_into_a_Binary_Search_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC79_Word_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC79_Word_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC116_Populating_Next_Right_Pointers_in_Each_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC116_Populating_Next_Right_Pointers_in_Each_Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +155,7 @@
       <workItem from="1585606588417" duration="299000" />
       <workItem from="1585608325991" duration="132000" />
       <workItem from="1585609739457" duration="247000" />
-      <workItem from="1585625326959" duration="16066000" />
+      <workItem from="1585625326959" duration="30391000" />
     </task>
     <servers />
   </component>
@@ -177,18 +181,19 @@
     </state>
     <state x="397" y="274" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579740993616" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579812169959" />
-    <state x="301" y="37" width="837" height="825" key="find.popup" timestamp="1582056768229">
+    <state x="301" y="37" width="837" height="825" key="find.popup" timestamp="1586303765765">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="301" y="37" width="837" height="825" key="find.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1586303765765" />
     <state x="301" y="37" width="837" height="825" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1582056768229" />
     <state x="135" y="23" key="new project wizard" timestamp="1582169006839">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="135" y="23" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1582169006839" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585967338166">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586302626721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1585967338166" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1586302626721" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579814358987" />
   </component>
 </project>
