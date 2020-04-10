@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC348_Design_Tic_Tac_Toe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC56_Merge_Intervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC57_Insert_Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC703_Kth_Largest_Element_in_a_Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC759_Employee_Free_Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC973_K_Closest_Points_to_Origin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC11_Container_With_Most_Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC161_One_Edit_Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC165_Compare_Version_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC169_Majority_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC205_Isomorphic_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC229_Majority_Element_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC238_Product_of_Array_Except_Self.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC287_Find_the_Duplicate_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC42_Trapping_Rain_Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC463_Island_Perimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC496_Next_Greater_Element_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC49_Group_Anagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC507_Perfect_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC88_Merge_Sorted_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC8_String_to_Integer_atoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +161,7 @@
       <workItem from="1585606588417" duration="299000" />
       <workItem from="1585608325991" duration="132000" />
       <workItem from="1585609739457" duration="247000" />
-      <workItem from="1585625326959" duration="35873000" />
+      <workItem from="1585625326959" duration="45339000" />
     </task>
     <servers />
   </component>
