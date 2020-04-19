@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Online_Assessment/Critical_Routers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC763_Partition_Labels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC937_Reorder_Data_in_Log_Files.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +146,7 @@
       <workItem from="1585608325991" duration="132000" />
       <workItem from="1585609739457" duration="247000" />
       <workItem from="1585625326959" duration="45577000" />
-      <workItem from="1586559258903" duration="12824000" />
+      <workItem from="1586559258903" duration="15842000" />
     </task>
     <servers />
   </component>
