@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/somethingElse/java/Quick_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC1049_Last_Stone_Weight_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC1249_Minimum_Remove_to_Make_Valid_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC149_Max_Points_on_a_Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC416_Partition_Equal_Subset_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC41_First_Missing_Positive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC474_Ones_and_Zeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC48_Rotate_Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC494_Target_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC4_Median_of_Two_Sorted_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC780_Reaching_Points.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC297_Serialize_and_Deserialize_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC297_Serialize_and_Deserialize_Binary_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +156,10 @@
       <workItem from="1585608325991" duration="132000" />
       <workItem from="1585609739457" duration="247000" />
       <workItem from="1585625326959" duration="45577000" />
-      <workItem from="1586559258903" duration="25565000" />
+      <workItem from="1586559258903" duration="26140000" />
+      <workItem from="1587711518376" duration="141000" />
+      <workItem from="1587712735251" duration="2976000" />
+      <workItem from="1587789422148" duration="6294000" />
     </task>
     <servers />
   </component>
@@ -183,10 +194,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="135" y="23" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1582169006839" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587439413275">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588021646553">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1587439413275" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588021646553" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579814358987" />
   </component>
 </project>
