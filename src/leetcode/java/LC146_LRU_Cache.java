@@ -116,3 +116,104 @@ public class LC146_LRU_Cache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
+
+// 另一种写法
+class Node { // public variables for simplicity
+    int key;
+    int value;
+    Node next;
+    Node prev;
+
+    public Node(int k, int v) {
+        key = k;
+        value = v;
+        next = null;
+        prev = null;
+    }
+}
+
+class DoublyLinkedList {
+    private Node head = new Node(0, 0); // dummy node
+    private Node tail = new Node(0, 0); // dummy node
+
+    public DoublyLinkedList() {
+        head.next = tail;
+        tail.prev = head;
+    }
+
+    public void addFirst(Node n) {
+        if (n == null) {
+            return;
+        }
+        n.prev = head;
+        n.next = head.next;
+        head.next.prev = n;
+        head.next = n;
+    }
+
+    public void remove(Node n) { // Assumes 'n' is in this list
+        if (n == null || n.prev == null || n.next == null) {
+            return;
+        }
+        n.prev.next = n.next;
+        n.next.prev = n.prev;
+    }
+
+    public Node getFirst() {
+        if (head.next == tail) {
+            return null; // list has 0 Nodes
+        }
+        return head.next;
+    }
+
+    public Node getLast() {
+        if (head.next == tail) {
+            return null; // list has 0 Nodes
+        }
+        return tail.prev;
+    }
+}
+class LRUCache {
+    private int capacity;
+    private Map<Integer, Node> map; // gives us O(1)-time access to Nodes
+    private DoublyLinkedList dll;   // used to keep track of "freshness" of Nodes
+
+    public LRUCache(int capacity) {
+        this.capacity = (capacity < 1) ? 1 : capacity;
+        map = new HashMap<>();
+        dll = new DoublyLinkedList();
+    }
+
+    public void put(int key, int value) {
+        remove(key); // If key already exists, we will overwrite it.
+        if (map.size() >= capacity) {
+            remove(dll.getLast().key);
+        }
+        Node n = new Node(key, value);
+        dll.addFirst(n);
+        map.put(key, n);
+    }
+
+    public int get(int key) {
+        Node n = map.get(key);
+        if (n == null) {
+            return -1; // Problem wants -1 returned. It's better to throw Exception instead.
+        }
+        if (n != dll.getFirst()) {
+            updateFreshness(n);
+        }
+        return n.value;
+    }
+
+    public void remove(int key) {
+        Node n = map.get(key);
+        dll.remove(n);
+        map.remove(key);
+    }
+
+    private void updateFreshness(Node n) { // Assumes 'n' is in this list
+        dll.remove(n);
+        dll.addFirst(n);
+    }
+}
+
