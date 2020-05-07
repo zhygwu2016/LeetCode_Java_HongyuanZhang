@@ -56,38 +56,6 @@ class LC98_2 {
     }
 }
 
-class SolutionLC98{
-    public boolean isValidBST(TreeNode root) {
-        if(root == null || (root.left == null && root.right == null)){
-            return true;
-        }
-
-        TreeNode[] pre = new TreeNode[1];
-        boolean[] result = new boolean[]{true};
-
-        inOrder(pre, root, result);
-
-        return result[0];
-    }
-
-    private void inOrder(TreeNode[] pre, TreeNode root,boolean[] result){
-        if(root == null) return;
-
-        inOrder(pre, root.left, result);
-
-        if(pre[0] == null){
-            pre[0] = root;
-        }else{
-            if(pre[0].val >= root.val) result[0] = false;
-            else{
-                pre[0] = root;
-            }
-        }
-
-        inOrder(pre, root.right, result);
-    }
-}
-
 // 算法加强
 class LC98{
     public boolean isValidBST(TreeNode root) {
@@ -117,4 +85,38 @@ class LC98{
         return helper(root.right, prev);
     }
 }
+
+//class SolutionLC98{
+//    public boolean isValidBST(TreeNode root) {
+//        if(root == null || (root.left == null && root.right == null)){
+//            return true;
+//        }
+//
+//        TreeNode[] pre = new TreeNode[1];
+//        boolean[] result = new boolean[]{true};
+//
+//        inOrder(pre, root, result);
+//
+//        return result[0];
+//    }
+//
+//    private void inOrder(TreeNode[] pre, TreeNode root,boolean[] result){
+//        if(root == null) return;
+//
+//        inOrder(pre, root.left, result);
+//
+//        if(pre[0] == null){
+//            pre[0] = root;
+//        }else{
+//            if(pre[0].val >= root.val) result[0] = false;
+//            else{
+//                pre[0] = root;
+//            }
+//        }
+//
+//        inOrder(pre, root.right, result);
+//    }
+//}
+
+
 

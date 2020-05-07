@@ -26,8 +26,8 @@ class Interval {
 // 遇见start +1, 遇见end -1.
 // 得0时，就找到了都空余的时间
 // Input: schedule = [[[1,3],[6,7]],[[2,4]],[[2,5],[9,12]]]
-//          1 2 2 3 4 5 6 7 9 12
-//          S S S E E E S E S E
+//           1 2 2 3 4 5 6 7 9 12
+//           S S S E E E S E S E
 // balance:  1 2 3 2 1 0 1 0 1 0
 // 所以[5, 6] [7, 9]是我们找到结果
 public class LC759_Employee_Free_Time {
@@ -47,11 +47,12 @@ public class LC759_Employee_Free_Time {
         int OPEN = 0, CLOSE = 1;
 
         List<int[]> events = new ArrayList();
-        for (List<Interval> employee: avails)
-            for (Interval iv: employee) {
+        for (List<Interval> employee: avails) {
+            for (Interval iv : employee) {
                 events.add(new int[]{iv.start, OPEN});
                 events.add(new int[]{iv.end, CLOSE});
             }
+        }
 
         Collections.sort(events, (a, b) -> a[0] != b[0] ? a[0]-b[0] : a[1]-b[1]);
         List<Interval> ans = new ArrayList();

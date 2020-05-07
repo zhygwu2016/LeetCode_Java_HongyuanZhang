@@ -59,7 +59,6 @@ public class Ordered_Junction_Boxes {
                         i++;
                         j++;
                     } else {
-                        //
                         return w1.compareTo(w2);
                     }
                 }

@@ -32,7 +32,7 @@ class Node {
 
  */
 
-// BFS
+// DFS
 public class LC133_Clone_Graph {
     // Definition for a Node.
     class Node {

@@ -3,10 +3,7 @@ package leetcode.java;
 // LC17. Letter Combinations of a Phone Number
 // https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class LC17_Letter_Combinations_of_a_Phone_Number {
     Map<String, String> phone = new HashMap<String, String>() {{
@@ -49,5 +46,24 @@ public class LC17_Letter_Combinations_of_a_Phone_Number {
             helper(combination + letter, next_digits.substring(1), output);
         }
 
+    }
+}
+
+// https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/8064/My-java-solution-with-FIFO-queue
+class LC17_Using_Queue {
+    public List<String> letterCombinations(String digits) {
+        LinkedList<String> ans = new LinkedList<String>();
+        if(digits.isEmpty()) return ans;
+        String[] mapping = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        ans.add("");
+        for(int i =0; i<digits.length();i++){
+            int x = Character.getNumericValue(digits.charAt(i));
+            while(ans.peek().length()==i){
+                String t = ans.remove();
+                for(char s : mapping[x].toCharArray())
+                    ans.add(t+s);
+            }
+        }
+        return ans;
     }
 }

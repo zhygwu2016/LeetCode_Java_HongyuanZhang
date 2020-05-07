@@ -5,6 +5,7 @@ package leetcode.java;
 
 import java.util.Stack;
 
+// 升序stack
 public class LC84_Largest_Rectangle_in_Histogram {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length, max = 0;

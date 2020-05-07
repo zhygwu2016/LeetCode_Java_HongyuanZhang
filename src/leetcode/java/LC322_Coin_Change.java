@@ -33,7 +33,7 @@ public class LC322_Coin_Change {
 
 
 // Approach #3 (Dynamic programming - Bottom up)
-class Solution3 {
+class LC322_Solution3 {
     public int coinChange(int[] coins, int amount) {
         int max = amount + 1;
         int[] dp = new int[amount + 1];

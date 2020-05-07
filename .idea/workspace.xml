@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC1_Two_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC819_Most_Common_Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC957_Prison_Cells_After_N_Days.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC146_LRU_Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC146_LRU_Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC133_Clone_Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC133_Clone_Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC17_Letter_Combinations_of_a_Phone_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC17_Letter_Combinations_of_a_Phone_Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC200_Number_of_Islands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC200_Number_of_Islands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC206_Reverse_Linked_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC206_Reverse_Linked_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC322_Coin_Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC322_Coin_Change.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC437_Path_Sum_III.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC437_Path_Sum_III.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC759_Employee_Free_Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC759_Employee_Free_Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC84_Largest_Rectangle_in_Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC84_Largest_Rectangle_in_Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC98_Validate_Binary_Search_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +158,7 @@
       <workItem from="1586559258903" duration="26140000" />
       <workItem from="1587711518376" duration="141000" />
       <workItem from="1587712735251" duration="2976000" />
-      <workItem from="1587789422148" duration="22821000" />
+      <workItem from="1587789422148" duration="41071000" />
     </task>
     <servers />
   </component>
@@ -188,10 +193,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="135" y="23" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1582169006839" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588131011113">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588746099978">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588131011113" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588746099978" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579814358987" />
   </component>
 </project>
