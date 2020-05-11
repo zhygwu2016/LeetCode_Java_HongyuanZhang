@@ -1,7 +1,7 @@
 package leetcode.java;
 
-// LC106. Construct Binary Tree from Inorder and Postorder Traversal
-// https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+// LC105. Construct Binary Tree from Preorder and Inorder Traversal
+// https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
 import java.util.HashMap;
 
@@ -11,23 +11,30 @@ import java.util.HashMap;
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
  * }
  */
-public class LC106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
-    int post_idx;
-    int[] inorder, postorder;
+public class LC105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
+    int pre_idx;
+    int[] preorder, inorder;
     // map: key-> value in int[]inorder; value-> index in int[]inorder
     HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        this.preorder = preorder;
         this.inorder = inorder;
-        this.postorder = postorder;
-        if (inorder == null || postorder == null || inorder.length != postorder.length) {
+
+        if (inorder == null || preorder == null || preorder.length != inorder.length) {
             return null;
         }
 
-        post_idx = postorder.length - 1;
+        pre_idx = 0;
 
         int idx = 0;
         for (Integer val : inorder) {
@@ -39,20 +46,18 @@ public class LC106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
 
     private TreeNode helper(int in_left, int in_right) {
         // if there is no elements to construct subtrees
-        if (in_left > in_right) {
-            return null;
-        }
+        if (in_left > in_right) return null;
 
-        int root_val = postorder[post_idx];
+        int root_val = preorder[pre_idx];
         TreeNode root = new TreeNode(root_val);
 
         // root splits inorder list into left and right subtrees
         int index = map.get(root_val);
 
-        post_idx--;
+        pre_idx++;
 
-        root.right = helper(index + 1, in_right);
         root.left = helper(in_left, index - 1);
+        root.right = helper(index + 1, in_right);
 
         return root;
     }

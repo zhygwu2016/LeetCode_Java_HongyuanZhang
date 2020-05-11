@@ -3,11 +3,11 @@ package leetcode.java;
 // 44. Wildcard Matching
 // https://leetcode.com/problems/wildcard-matching/
 /*
-Given an input string (s) and a pattern (p),
-implement wildcard pattern matching with support for '?' and '*'.
+    Given an input string (s) and a pattern (p),
+    implement wildcard pattern matching with support for '?' and '*'.
 
-'?' Matches any single character.
-'*' Matches any sequence of characters (including the empty sequence).
+    '?' Matches any single character.
+    '*' Matches any sequence of characters (including the empty sequence).
  */
 
 // 算法加强

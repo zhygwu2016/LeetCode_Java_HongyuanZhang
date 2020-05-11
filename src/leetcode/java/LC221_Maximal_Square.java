@@ -5,6 +5,9 @@ package leetcode.java;
 
 public class LC221_Maximal_Square {
     /*
+
+    dp[i][j]: 以(i, j)为右下角的最大Square面积
+
     To apply DP, we define the state as the maximal size (square = size * size)
     of the square that can be formed till point(i, j), denoted as dp[i][j].
 
