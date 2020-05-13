@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC125_Valid_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC163_Missing_Ranges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC167_Two_Sum_II_Input_array_is_sorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC509_Fibonacci_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC557_Reverse_Words_in_a_String_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC63_Unique_Paths_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC716_Max_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC7_Reverse_Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC424_Longest_Repeating_Character_Replacement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC221_Maximal_Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC221_Maximal_Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC44_Wildcard_Matching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC44_Wildcard_Matching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC50_Pow_x_n.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC50_Pow_x_n.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC340_Longest_Substring_with_At_Most_K_Distinct_Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC340_Longest_Substring_with_At_Most_K_Distinct_Characters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +151,7 @@
       <workItem from="1586559258903" duration="26140000" />
       <workItem from="1587711518376" duration="141000" />
       <workItem from="1587712735251" duration="2976000" />
-      <workItem from="1587789422148" duration="62492000" />
+      <workItem from="1587789422148" duration="66405000" />
     </task>
     <servers />
   </component>
