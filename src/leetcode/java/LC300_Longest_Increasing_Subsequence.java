@@ -3,6 +3,9 @@ package leetcode.java;
 // 300. Longest Increasing Subsequence
 // https://leetcode.com/problems/longest-increasing-subsequence/
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Solution 1 DP O(n^2)
 public class LC300_Longest_Increasing_Subsequence {
     public int lengthOfLIS(int[] nums) {
@@ -109,3 +112,42 @@ class LC300_Longest_Increasing_Subsequence_3 {
 
 }
 // {0, 8, 4, 12, 2}
+
+
+// 算法加强
+// Greedy + Binary Search 方法同上
+class LC300_Algo_Advanced {
+    public int lengthOfLIS(int[] nums) {
+        List<Integer> buffer = new ArrayList<>();
+
+        for (int n : nums) {
+            int index = replaceIndex(buffer, n);
+            if (buffer.size() == index) {
+                buffer.add(n);
+            } else {
+                buffer.set(index, n);
+            }
+        }
+
+        return buffer.size();
+    }
+
+    // find the index of "first next" val: "next" val >= val
+    private int replaceIndex(List<Integer> buffer, int val) {
+        int start = 0, end = buffer.size() - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            int midVal = buffer.get(mid);
+            if (midVal == val) {
+                return mid;
+            } else if (midVal < val) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+
+        return start;
+    }
+}
+

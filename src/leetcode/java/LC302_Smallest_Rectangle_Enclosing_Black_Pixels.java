@@ -66,3 +66,87 @@ public class LC302_Smallest_Rectangle_Enclosing_Black_Pixels {
         }
     }
 }
+
+// 算法加强
+// 从(x, y)点，向上下左右分别作binary search, 找到四个边界
+// O(mlogn) + O(nlogm)
+class LC302 {
+    public int minArea(char[][] image, int x, int y) {
+        if(image == null || image.length == 0
+                || image[0] == null || image[0].length == 0) {
+            return 0;
+        }
+
+        int row = image.length, col = image[0].length;
+        int start = 0, end = 0;
+
+        // 最终的边界
+        int left = 0, right = 0, top = 0, bottom = 0;
+
+        // left: 0 ~ y
+        start = 0;
+        end = y;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            int i = 0;
+            for (i = 0; i < row; i++) {
+                if (image[i][mid] == '1') {
+                    end = mid - 1;
+                    break;
+                }
+            }
+            if (i == row) start = mid + 1;
+        }
+        left = start;
+
+        // right: y ~ col - 1
+        start = y;
+        end = col - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            int i = 0;
+            for (i = 0; i < row; i++) {
+                if (image[i][mid] == '1') {
+                    start = mid + 1;
+                    break;
+                }
+            }
+            if (i == row) end = mid - 1;
+        }
+        right = end;
+
+        // top: 0 ~ x
+        start = 0;
+        end = x;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            int j = 0;
+            for (j = 0; j < col; j++) {
+                if (image[mid][j] == '1') {
+                    end = mid - 1;
+                    break;
+                }
+            }
+            if (j == col) start = mid + 1;
+        }
+        top = start;
+
+        // bottom: x ~ row - 1
+        start = x;
+        end = row - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            int j = 0;
+            for (j = 0; j < col; j++) {
+                if (image[mid][j] == '1') {
+                    start = mid + 1;
+                    break;
+                }
+            }
+            if (j == col) end = mid - 1;
+        }
+        bottom = end;
+
+        return (right - left + 1) * (bottom - top + 1);
+    }
+}

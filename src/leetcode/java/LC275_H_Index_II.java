@@ -25,5 +25,6 @@ public class LC275_H_Index_II {
 
         // use the third method, citations[right] will less than citations[left] after the loop
         return len - (right + 1);
+        // return len - left;
     }
 }
