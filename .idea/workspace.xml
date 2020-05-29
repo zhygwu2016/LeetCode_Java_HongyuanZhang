@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7ff2e2-a50f-421c-8716-9bec731d2a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC296_Best_Meeting_Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC317_Shortest_Distance_from_All_Buildings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC334_Increasing_Triplet_Subsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/java/Lint183_Wood_Cut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/somethingElse/java/Quick_Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/LC373_Find_K_Pairs_with_Smallest_Sums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC134_Gas_Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC134_Gas_Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC259_3Sum_Smaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC259_3Sum_Smaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC275_H_Index_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC275_H_Index_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC300_Longest_Increasing_Subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC300_Longest_Increasing_Subsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC302_Smallest_Rectangle_Enclosing_Black_Pixels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC302_Smallest_Rectangle_Enclosing_Black_Pixels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/java/LC69_Sqrtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/LC69_Sqrtx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +152,8 @@
       <workItem from="1587712735251" duration="2976000" />
       <workItem from="1587789422148" duration="67452000" />
       <workItem from="1589488714546" duration="6108000" />
-      <workItem from="1590186571182" duration="10781000" />
+      <workItem from="1590186571182" duration="10888000" />
+      <workItem from="1590361693055" duration="6780000" />
     </task>
     <servers />
   </component>
